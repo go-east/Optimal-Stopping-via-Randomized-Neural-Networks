@@ -1,5 +1,5 @@
 ---
-title: "null"
+title: "Optimal Stopping via Randomized Neural Networks"
 subtitle: ""
 author: [Calypso Herrera, Florian Krach, Pierre Ruyssen, Josef Teichmann]
 date: "2023/02/02"
@@ -12,8 +12,8 @@ titlepage-rule-height: 0
 titlepage-background: "./figures/cover.pdf"
 header-left: "\\hspace{1cm}"
 header-right: "Page \\thepage"
-footer-left: "null"
-footer-right: "eth-zurich"
+footer-left: "Optimal Stopping via Randomized Neural Networks"
+footer-right: "ETH Zurich"
 abstract: "This paper presents new machine learning approaches to approximate the solutions of optimal stopping problems. The key idea of these methods is to use neural networks, where the parameters of the hidden layers are generated randomly and only the last layer is trained, in order to approximate the continuation value. Our approaches are applicable to high dimensional problems where the existing approaches become increasingly impractical. In addition, since our approaches can be optimized using simple linear regression, they are easy to implement and theoretical guarantees are provided. Our randomized reinforcement learning approach and randomized recurrent neural network approach outperform the state-of-the-art and other relevant machine learning approaches in Markovian and non-Markovian examples, respectively. In particular, we test our approaches on Black-Scholes, Heston, rough Heston and fractional Brownian motion. Moreover, we show that they can also be used to efficiently compute Greeks of American options."
 ---
 
